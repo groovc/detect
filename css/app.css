@@ -33,6 +33,15 @@
         font-weight: 700;
         text-align: center;
     }
+    
+    .footer {
+        background: #33CC33;
+        padding: 1em;
+    }
+
+    .centered {
+        text-align: center;
+    }
 }
 
 @media (orientation: landscape) {
