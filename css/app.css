@@ -1,0 +1,48 @@
+@media only screen and (min-width: 0em) {
+    html {
+        font-family: 'Roboto', sans-serif;
+    }
+    .primary-header {
+        background: rgba(22,22,22,0.75);
+        color: #fff;
+        font-size: 1.25em;
+        font-weight: 700;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        max-width: 62.5em;
+    }
+
+    .stat-label {
+        color: #aaa;
+        font-size: 0.75em;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .results-wrapper {
+        background: #000;
+        border: 1px solid rgba(255,255,255,0.15);
+        padding: 0 0 1.5em 0;
+    }
+    .results {
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+@media (orientation: landscape) {
+    .portrait {
+        display: none;
+    }
+}
+
+@media (orientation: portrait) {
+    .landscape {
+        display: none;
+    }
+}
