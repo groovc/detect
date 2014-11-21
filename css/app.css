@@ -2,8 +2,22 @@
     html {
         font-family: 'Roboto', sans-serif;
     }
+    body {
+        background: #000;
+    }
+
+    a {
+        color: coral;
+        display: inline-block;
+    }
+
+    a:hover {
+        background: coral;
+        color: #fff;
+    }
+
     .primary-header {
-        background: rgba(22,22,22,0.75);
+        background: rgba(100,100,100,0.5);
         color: #fff;
         font-size: 1.25em;
         font-weight: 700;
@@ -35,8 +49,12 @@
     }
     
     .footer {
-        background: #33CC33;
+        background: rgba(100, 100, 100, .25);
+        bottom: 0;
+        color: #ddd;
         padding: 1em;
+        position: absolute;
+        width: 100%;
     }
 
     .centered {
