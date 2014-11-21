@@ -49,11 +49,11 @@
     }
     
     .footer {
-        background: rgba(100, 100, 100, .25);
+        background: rgba(100, 100, 100, 1);
         bottom: 0;
         color: #ddd;
         padding: 1em;
-        position: absolute;
+        position: fixed;
         width: 100%;
     }
 
